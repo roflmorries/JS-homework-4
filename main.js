@@ -20,7 +20,7 @@ for (let i = 10; i <= 100; i += 10) {
 
 // 3.
 
-let num = 172;
+let num = parseInt(prompt("Введите целое число:"));
 for (let i = 1; i <= 100; i++) {
     if (i * i <= num) {
         console.log(i);
@@ -30,7 +30,7 @@ for (let i = 1; i <= 100; i++) {
 
 // 4.
 
-const userNum = 72;
+const userNum = parseInt(prompt("Введите целое число:"));
 
 let isPrime = true;
 
@@ -51,7 +51,7 @@ console.log(`${userNum} является простым числом: ${isPrime}
 
 // 5.
 
-const userNum = 27;
+const userNum = parseInt(prompt("Введите целое число:"));
 
 let isPower3rd = false;
 

@@ -100,7 +100,7 @@ for (let i = 100; i <= 200; i++) {
 
 // 9.
 
-const userNum = 28;
+const userNum = parseInt(prompt("Введите натуральное число (>0): "));
 
 let divisorCount = 0;
 let divisorSum = 0;
